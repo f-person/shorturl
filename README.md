@@ -1,5 +1,5 @@
 dependencies:
-    python3
+    python3<br>
     requests (sudo pip3 install requests)
 
 just put it somewhere in your path.
