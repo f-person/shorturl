@@ -5,8 +5,8 @@ dependencies:
 just put it somewhere in your path.
 
 usage:
-    shorturl \<link> \[\<custom path>]
-                <br>or<br>
+    shorturl \<link> \<custom path><br>
+                or just<br>
     shorturl \<link>
 
 script will print 
