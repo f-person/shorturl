@@ -6,9 +6,9 @@ just put it somewhere in your path.
 
 usage:
     shorturl \<link> \[\<custom path>]
-                or
+                <br>or
     shorturl \<link>
 
 script will print 
-    http://gg.gg/\<generated-url>
+    http://gg.gg/<generated-url>
 
