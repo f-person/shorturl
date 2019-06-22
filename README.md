@@ -5,10 +5,10 @@ dependencies:
 just put it somewhere in your path.
 
 usage:
-    shorturl <link> [<custom path>]
+    shorturl \<link> \[\<custom path>]
                 or
-    shorturl <link>
+    shorturl \<link>
 
 script will print 
-    http://gg.gg/<generated-url>
+    http://gg.gg/\<generated-url>
 
