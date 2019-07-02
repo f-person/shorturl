@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3.6
 
 from requests import post
 from sys import exit, argv
@@ -13,10 +13,8 @@ else:
     if len(argv) == 1:
         exit('please enter the url.')
     exit('too many arguments.')
-
-if 'http://' not in long_url or 'https://' not in long_url:
+if 'http://' not in long_url and 'https://' not in long_url:
     long_url = 'http://' + long_url
-
 check = post('http://gg.gg/check', data={'custom_path': custom_path, 'use_norefs': '0', 'long_url': long_url, 'app': 'site', 'version': '0.1'})
 
 if check.text != 'ok':
